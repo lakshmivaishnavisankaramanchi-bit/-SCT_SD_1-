@@ -1,6 +1,6 @@
-🌡️ Temperature Converter Program
+# 🌡️ Temperature Converter Program
 
-📌 Task Description
+# 📌 Task Description
 
 This program converts temperatures between Celsius (°C), Fahrenheit (°F), and Kelvin (K).
 It takes the temperature value and its unit as input, performs the conversion, and displays the output in the other two units.
@@ -8,7 +8,7 @@ It takes the temperature value and its unit as input, performs the conversion, a
 
 ---
 
-✅ Features
+# ✅ Features
 
 ✔ Converts from Celsius → Fahrenheit & Kelvin
 ✔ Converts from Fahrenheit → Celsius & Kelvin
@@ -18,7 +18,7 @@ It takes the temperature value and its unit as input, performs the conversion, a
 
 ---
 
-🧮 Conversion Formulas Used
+# 🧮 Conversion Formulas Used
 
 From → To	Formula
 
@@ -33,7 +33,7 @@ K → °F	(K − 273.15) × 9/5 + 32
 
 ---
 
-💻 Python Code
+# 💻 Python Code
 
 print("Temperature Converter Program")
 temp = float(input("Enter the temperature value: "))
