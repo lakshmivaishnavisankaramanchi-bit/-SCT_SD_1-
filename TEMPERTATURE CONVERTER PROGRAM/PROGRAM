@@ -1,0 +1,24 @@
+print("Temperature Converter Program")
+temp = float(input("Enter the temperature value: "))
+unit = input("Enter the unit (C/F/K): ").upper()
+
+if unit == "C":
+    f = (temp * 9/5) + 32
+    k = temp + 273.15
+    print(f"{temp}°C = {f}°F")
+    print(f"{temp}°C = {k}K")
+
+elif unit == "F":
+    c = (temp - 32) * 5/9
+    k = c + 273.15
+    print(f"{temp}°F = {c}°C")
+    print(f"{temp}°F = {k}K")
+
+elif unit == "K":
+    c = temp - 273.15
+    f = (c * 9/5) + 32
+    print(f"{temp}K = {c}°C")
+    print(f"{temp}K = {f}°F")
+
+else:
+    print("Invalid unit! Please enter C, F, or K.")
