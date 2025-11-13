@@ -22,3 +22,14 @@ elif unit == "K":
 
 else:
     print("Invalid unit! Please enter C, F, or K.")
+
+
+Output:
+Input: 100°C  
+Output: 212°F | 373.15 K
+
+Input: 32°F  
+Output: 0°C | 273.15 K
+
+Input: 300 K  
+Output: 26.85°C | 80.33°F
