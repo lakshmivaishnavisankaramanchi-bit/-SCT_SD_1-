@@ -1,3 +1,5 @@
+INPUT :
+
 print("Temperature Converter Program")
 temp = float(input("Enter the temperature value: "))
 unit = input("Enter the unit (C/F/K): ").upper()
@@ -24,7 +26,7 @@ else:
     print("Invalid unit! Please enter C, F, or K.")
 
 
-Output:
+OUTPUT:
 Input: 100°C  
 Output: 212°F | 373.15 K
 
